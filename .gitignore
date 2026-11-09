@@ -1,0 +1,3 @@
+# Keep local environment files on disk and prevent them from being committed anywhere in the repo.
+.env*
+**/.env*

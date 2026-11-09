@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1100" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#F1FAFF"/><stop offset="1" stop-color="#C9E7F8"/></linearGradient>
+    <linearGradient id="sclera" x1="275" y1="280" x2="790" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#DCEFF9"/></linearGradient>
+    <linearGradient id="lens" x1="560" y1="300" x2="690" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF5D7"/><stop offset="1" stop-color="#EFB75C"/></linearGradient>
+    <filter id="shadow" x="140" y="180" width="740" height="390" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="38" fill="url(#bg)"/>
+  <circle cx="1040" cy="135" r="92" fill="#fff" fill-opacity=".42"/><circle cx="145" cy="580" r="120" fill="#91CBEA" fill-opacity=".22"/>
+  <ellipse cx="510" cy="468" rx="345" ry="60" fill="#397E9F" fill-opacity=".15" filter="url(#shadow)"/>
+  <path d="M195 348c90-119 207-178 337-178s247 59 337 178c-90 119-207 178-337 178s-247-59-337-178Z" fill="url(#sclera)" stroke="#5A9CBD" stroke-width="10"/>
+  <path d="M426 348c0-59 48-107 107-107s107 48 107 107-48 107-107 107-107-48-107-107Z" fill="#6AB7D5" stroke="#3387AD" stroke-width="10"/>
+  <circle cx="533" cy="348" r="61" fill="#173E63"/><circle cx="533" cy="348" r="28" fill="#102C48"/><circle cx="512" cy="324" r="13" fill="#fff" fill-opacity=".9"/>
+  <path d="M607 296c27 8 47 27 56 52 10 29 2 63-20 84-20 19-47 27-73 21 15-20 24-45 24-72s-9-50-23-70c12-11 24-16 36-15Z" fill="url(#lens)" stroke="#D39A43" stroke-width="8"/>
+  <path d="M885 121 653 299" stroke="#315D7E" stroke-width="34" stroke-linecap="round"/><path d="m892 124-44-50" stroke="#79B9D2" stroke-width="34" stroke-linecap="round"/><path d="m654 299-26 25" stroke="#E39D45" stroke-width="13" stroke-linecap="round"/>
+  <path d="M710 305c38-24 87-27 128-7" stroke="#F4B654" stroke-width="9" stroke-linecap="round" stroke-dasharray="4 22"/>
+  <rect x="895" y="474" width="190" height="90" rx="45" fill="#fff" fill-opacity=".76"/><circle cx="940" cy="519" r="14" fill="#31A6A6"/><path d="M975 520h79" stroke="#568198" stroke-width="12" stroke-linecap="round"/>
+</svg>
